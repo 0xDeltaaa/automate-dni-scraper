@@ -1,0 +1,13 @@
+{
+  "name": "automate-dni-scraper",
+  "version": "1.0.0",
+  "description": "Automation project for DNI verification codes and ubigeo extraction",
+  "main": "procesar_csv.py",
+  "scripts": {
+    "start": "python procesar_csv.py --archivo automate.csv --delay 1"
+  },
+  "dependencies": {},
+  "engines": {
+    "python": "3.11.x"
+  }
+}

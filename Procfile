@@ -1,0 +1,1 @@
+web: python procesar_csv.py --archivo automate.csv --delay 1
