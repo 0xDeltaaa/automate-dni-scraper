@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  dni-scraper:
+    build: .
+    container_name: automate-dni-scraper
+    restart: unless-stopped
+    volumes:
+      - ./results:/app/results
+    environment:
+      - DISPLAY=:99
+    stdin_open: true
+    tty: true

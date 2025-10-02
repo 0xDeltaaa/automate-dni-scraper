@@ -1,0 +1,9 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.log
+*.png
+.devcontainer
+node_modules
+.env
