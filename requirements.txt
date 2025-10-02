@@ -3,5 +3,5 @@ pandas==2.1.4
 requests==2.31.0
 beautifulsoup4==4.12.2
 webdriver-manager==4.0.1
-sqlite3
 python-dotenv==1.0.0
+flask==2.3.3
