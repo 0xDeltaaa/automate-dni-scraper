@@ -26,7 +26,7 @@ COPY *.csv .
 COPY *.md .
 
 # Instalar dependencias de Python
-RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt flask
 
 # Configurar variables de entorno para Chrome
 ENV CHROME_BIN=/usr/bin/google-chrome
@@ -37,4 +37,4 @@ ENV DISPLAY=:99
 EXPOSE 8080
 
 # Comando por defecto
-CMD ["python", "procesar_csv.py", "--archivo", "automate.csv", "--delay", "1"]
+CMD ["python", "web_service.py"]
